@@ -1,3 +1,4 @@
+import Collaboration from "./components/Collaboration/Collaboration";
 import Footer from "./components/Footer/Footer";
 import Globe from "./components/Footer/Globe";
 import Hero from "./components/Hero-section/Hero";
@@ -33,7 +34,12 @@ export default function Home() {
           >
             <Productivity />
           </div>
-
+          <div
+            id="collaboration"
+            className="home-campaign-productivity px-4 pt-8  overflow-hidden"
+          >
+            <Collaboration />
+          </div>
           <Globe />
           <div className="max-w-[1280px] mx-auto relative z-[2] px-5">
             <ul className="lg:w-9/12 text-[14px] pt-16 text-[#7d8590] space-y-1">
