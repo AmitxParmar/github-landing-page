@@ -5,6 +5,7 @@ import Hero from "./components/Hero-section/Hero";
 import Navbar from "./components/Navbar/Navbar";
 import StickyNav from "./components/Navbar/StickyNav";
 import Productivity from "./components/Productivity/Productivity";
+import Security from "./components/Security/Security";
 
 export default function Home() {
   return (
@@ -39,6 +40,12 @@ export default function Home() {
             className="home-campaign-productivity px-4 pt-8  overflow-hidden"
           >
             <Collaboration />
+          </div>
+          <div
+            id="security"
+            className="home-campaign-productivity px-4 pt-8 pb-16 overflow-hidden"
+          >
+            <Security />
           </div>
           <Globe />
           <div className="max-w-[1280px] mx-auto relative z-[2] px-5">
