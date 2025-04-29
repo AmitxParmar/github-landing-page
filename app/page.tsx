@@ -2,6 +2,8 @@ import Footer from "./components/Footer/Footer";
 import Globe from "./components/Footer/Globe";
 import Hero from "./components/Hero-section/Hero";
 import Navbar from "./components/Navbar/Navbar";
+import StickyNav from "./components/Navbar/StickyNav";
+import Productivity from "./components/Productivity/Productivity";
 
 export default function Home() {
   return (
@@ -24,8 +26,16 @@ export default function Home() {
           <div className="hero-section px-3">
             <Hero />
           </div>
+          <StickyNav />
+          <div
+            id="productivity"
+            className="home-campaign-productivity px-4 pt-8 overflow-hidden"
+          >
+            <Productivity />
+          </div>
+
           <Globe />
-          <div className="max-w-[1280px] mx-auto relative z-[2]  px-5">
+          <div className="max-w-[1280px] mx-auto relative z-[2] px-5">
             <ul className="lg:w-9/12 text-[14px] pt-16 text-[#7d8590] space-y-1">
               <li>
                 <sup id="footnote-1">1</sup> The Total Economic Impact™ Of
